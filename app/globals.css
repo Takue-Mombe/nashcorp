@@ -113,14 +113,36 @@ footer {
 
 .nav-logo,
 .footer-logo {
-  font-family: var(--font-display), serif;
-  font-size: 1.08rem;
-  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
 }
 
-.nav-logo span,
-.footer-logo span {
-  color: var(--amber2);
+.brand-logo-frame {
+  width: clamp(180px, 16vw, 300px);
+  height: clamp(54px, 5vw, 90px);
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1.42);
+  transform-origin: center;
+}
+
+.footer-logo .brand-logo-frame {
+  width: clamp(160px, 13vw, 240px);
+  height: clamp(50px, 4.2vw, 74px);
+}
+
+.footer-logo .brand-logo-img {
+  transform: scale(1.36);
 }
 
 .nav-links {
@@ -1088,5 +1110,10 @@ footer {
   footer {
     flex-direction: column;
     text-align: center;
+  }
+
+  .brand-logo-frame {
+    width: clamp(150px, 44vw, 230px);
+    height: clamp(45px, 13vw, 68px);
   }
 }

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const links = [
@@ -12,8 +13,17 @@ const links = [
 export function NavBar() {
   return (
     <nav className="nav-shell" aria-label="Primary">
-      <Link href="/" className="nav-logo">
-        Tinashe <span>Gore</span>
+      <Link href="/" className="nav-logo" aria-label="Tinashe Gore Carpentry Studio home">
+        <span className="brand-logo-frame" aria-hidden="true">
+          <Image
+            src="/logo.png"
+            alt="Tinashe Gore Carpentry Studio"
+            width={260}
+            height={86}
+            priority
+            className="brand-logo-img"
+          />
+        </span>
       </Link>
       <ul className="nav-links">
         {links.map((link) => (
