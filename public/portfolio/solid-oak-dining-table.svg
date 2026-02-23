@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Solid oak dining table placeholder">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6b4a32" />
+      <stop offset="100%" stop-color="#2d1f14" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g1)" />
+  <g opacity="0.16" fill="#f5f0e8">
+    <rect x="200" y="340" width="800" height="140" rx="16" />
+    <rect x="280" y="470" width="48" height="170" />
+    <rect x="872" y="470" width="48" height="170" />
+  </g>
+</svg>

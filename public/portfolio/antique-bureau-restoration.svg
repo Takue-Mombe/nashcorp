@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Antique bureau restoration placeholder">
+  <defs>
+    <linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3d2a" />
+      <stop offset="100%" stop-color="#2b1d13" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g5)" />
+  <g opacity="0.2" stroke="#f5f0e8" stroke-width="8" fill="none">
+    <rect x="350" y="220" width="500" height="420" rx="14" />
+    <line x1="350" y1="360" x2="850" y2="360" />
+    <line x1="350" y1="500" x2="850" y2="500" />
+    <line x1="600" y1="220" x2="600" y2="640" />
+  </g>
+</svg>
